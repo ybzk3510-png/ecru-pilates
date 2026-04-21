@@ -428,6 +428,14 @@ h2 {
   .trouble p{
     font-size: 14px;
     line-height: 1.9;
+    letter-spacing: 0.02em;
+  }
+
+  .concept,
+  .profile,
+  .service,
+  .trouble{
+    max-width: 90%; 
   }
 }
 
