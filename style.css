@@ -78,30 +78,29 @@ h2 {
 /* TOP */
 .fv {
   position: relative;
-  height: 70vh;
-  background-color: #f7f5f2;
+  height: 85vh;
+  width: 100%;
+  max-width: none;
+  margin: 120px 0 0;
+  padding: 0;
+
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding-top: 250px;
-  text-align: center;
-  margin-top: 120px;
-  background: 
-    linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),
-    url("fv.jpg") center / cover no-repeat;
+  justify-content: flex-end;
+  align-items: center;
+
+  background:
+    linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+    url("image/studio2.jpg") 35% 45% / cover no-repeat;
 }
 
-.fv::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: url("image/logo.jpeg") center / 500px no-repeat;
-  opacity: 0.3;
-}
+
 
 .fv-text {
   position: relative; 
   z-index: 1;
+  color: #fff;
+  max-width: 400px;
+  text-align: right;
 }
 
 .fv-inner {
@@ -117,7 +116,7 @@ h2 {
 .fv p {
   margin-top: 15px;
   font-size: 17px;
-  color: #555;
+  color: #f8f7f7;
 }
 
 /* トラブル */
@@ -358,6 +357,21 @@ h2 {
 
 /* スマホ */
 @media (max-width: 768px) {
+  .fv {
+    
+    height: 65vh; 
+    padding: 0;
+
+    background:
+      linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+      url("image/studio2.jpg") 50% 55% / cover no-repeat;
+  
+  }
+  .fv-text {
+    max-width: 90%;
+    text-align: center;
+  }
+
   .service-img {
     grid-template-columns: 1fr;
   }
@@ -425,6 +439,7 @@ h2 {
 
   .profile p,
   .concept p, 
+  .service p,
   .trouble p{
     font-size: 14px;
     line-height: 1.9;
