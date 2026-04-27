@@ -148,17 +148,15 @@ h2 {
 }
 
 .service-img {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
   margin-top: 30px;
 }
 
 .service-img img {
   width: 100%;
-  aspect-ratio: 1 / 1; 
-  object-fit: cover;
-  border-radius: 12px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
+  display: block;
 }
 
 /* 料金 */
