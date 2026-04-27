@@ -4,6 +4,7 @@ body {
   color: #333;
   background: #f7f5f2;
   line-height: 1.8;
+  overflow-x: hidden;
 }
 
 html {
@@ -143,20 +144,30 @@ h2 {
 }
 
 /* サービス */
+
+.service {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 .service p {
   margin-bottom: 15px;
 }
 
 .service-img {
-  margin-top: 30px;
+  width: 100%;
+  overflow: hidden;
+  max-width: 600px; 
+  margin: 30px auto 0;
 }
 
 .service-img img {
   width: 100%;
-  max-width: 100%;
-  height: auto;
-  border-radius: 16px;
+  height: 450px;
+  object-fit: cover;
   display: block;
+  object-position: center;
+  border-radius: 16px;
 }
 
 /* 料金 */
