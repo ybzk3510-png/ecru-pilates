@@ -501,14 +501,23 @@ h2 {
   }
 
   .nav a:last-child {
-  border-bottom: none;
+    border-bottom: none;
+    color: #333;
+    padding: 15px 0;
+    border-radius: 0;
+  }
+
+  .nav a:last-child.insta-link {
+   color: #a89f91;
+   font-weight: 500;
+   background: none;
   }
  
   .nav.active {
     right: 0;
   }
 
-   .profile {
+  .profile {
     flex-direction: column;
     align-items: center;
   }
@@ -540,11 +549,12 @@ h2 {
     max-width: 90%; 
   }
 
-    .fixed-btn {
+  .fixed-btn {
     right: 50%;
     transform: translateX(50%);
     bottom: 15px;
     padding: 16px 28px;
     font-size: 15px;
   }
+
 }
