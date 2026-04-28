@@ -282,12 +282,18 @@ h2 {
 .cta-btn {
   display: inline-block;
   margin-top: 25px;
-  background: #6b8e7b;
+  background: #a89f91;
   color: #fff;
   padding: 14px 28px;
   border-radius: 40px;
   text-decoration: none;
   font-size: 14px;
+  opacity: 1;
+}
+
+.cta-btn:hover {
+  transform: translateY(-3px);
+  opacity: 0.9;
 }
 
 .cta-note {

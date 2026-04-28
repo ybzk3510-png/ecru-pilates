@@ -38,3 +38,4 @@ window.addEventListener('scroll', () => {
     btn.classList.add('is-hidden');
   }
 });
+
