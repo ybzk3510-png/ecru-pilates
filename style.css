@@ -39,10 +39,12 @@ section {
   margin-left: 20px;
 }
 
-.logo-text a {
-  text-decoration: none;
+.logo-text a,
+.logo-text a:visited,
+.logo-text a:hover,
+.logo-text a:active {
   color: inherit;
-  cursor: pointer;
+  text-decoration: none;
 }
 
 .nav {
