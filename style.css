@@ -471,9 +471,26 @@ h2 {
       url("image/studio2.jpg") 50% 55% / cover no-repeat;
   
   }
+
+    .fv h2 {
+    font-size: 18px;
+    line-height: 1.8;
+    letter-spacing: 0.04em;
+  }
+
+  .fv p {
+    font-size: 13px;
+    line-height: 1.8;
+  }
+
   .fv-text {
     max-width: 90%;
     text-align: center;
+    padding: 0 20px;
+  }
+
+  .fv-cta {
+  margin-top: 28px;
   }
 
   .service-img {
