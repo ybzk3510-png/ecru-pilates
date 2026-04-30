@@ -127,7 +127,7 @@ h2 {
 .fv-cta a {
   display: inline-block;
   margin-top: 20px;
-  background: #a89f91;
+  background: #9a8f80;
   color: #fff;
   text-decoration: none;
   padding: 14px 28px;
@@ -474,7 +474,7 @@ h2 {
     
     height: 65vh; 
     padding: 0;
-
+    margin-top: 64px;
     background:
       linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
       url("image/studio2.jpg") 50% 55% / cover no-repeat;
