@@ -270,10 +270,50 @@ h2 {
   padding: 80px 20px;
 }
 
-.access-address {
-  margin-top: 20px;
+.access-photo {
+  max-width: 650px;
+  margin: 0 auto 30px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.access-photo img {
+  width: 100%;
+  border-radius: 12px;
+  height: 520px;
+  object-fit: cover;
+  object-position: center 45%;
+  display: block;
+}
+
+.access-caption {
+  font-size: 0.9rem;
+  color: #8c847a;
+  text-align: center;
+  margin-top: 12px;
+  line-height: 1.6;
+}
+
+.access-text {
+  text-align: center;
   line-height: 1.8;
-  color: #555;
+  margin-bottom: 24px;
+  color: #5c554d;
+}
+
+.access-address {
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
+
+.access-hours {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.access-hours h3 {
+  margin-bottom: 16px;
 }
 
 .map {
@@ -287,6 +327,7 @@ h2 {
   height: 350px;
   border: none;
 }
+
 
 /* ボタン */
 .btn:hover {
