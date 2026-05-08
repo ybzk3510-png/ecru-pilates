@@ -236,27 +236,70 @@ h2 {
 }
 
 /* プロフィール */
-.profile p {
-  max-width: none;
-  flex: 1;
-  line-height: 2;
+.profile {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.profile-main {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .profile-img {
   flex: 0 0 220px;
 }
 
-.profile {
-  display: flex;
-  gap: 40px;
-  align-items: flex-start;
-   max-width: 900px; 
-  margin: 0 auto;
-}
-
 .profile-img img {
   width: 100%;
   border-radius: 12px;
+  display: block;
+}
+
+.profile-text {
+  flex: 1;
+}
+
+.profile-message {
+  line-height: 2;
+  text-align: left;
+}
+
+.profile-career {
+  margin-top: 50px;
+  display: grid;
+  gap: 24px;
+}
+
+.career-block {
+  background: #faf7f2;
+  padding: 28px;
+  border-radius: 12px;
+  text-align: left;
+}
+
+.career-block h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  margin-bottom: 18px;
+  color: #5c554d;
+  border-bottom: 1px solid #e7e0d8;
+  padding-bottom: 8px;
+}
+
+.career-block ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.career-block li {
+  line-height: 1.9;
+  margin-bottom: 10px;
+  color: #6b645c;
+  font-size: 0.95rem;
 }
 
 
@@ -609,14 +652,18 @@ h2 {
     right: 0;
   }
 
-  .profile {
+  .profile-main {
     flex-direction: column;
-    align-items: center;
+    gap: 30px;
   }
 
-  .profile p {
+  .profile-career {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .profile-message {
     width: 100%;
-    text-align: left;
+    text-align: center;
     line-height: 1.9;
   }
 
