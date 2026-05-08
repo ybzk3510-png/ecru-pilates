@@ -270,12 +270,13 @@ h2 {
   margin-top: 50px;
   display: grid;
   gap: 24px;
+  grid-template-columns: 1fr 1fr;
 }
 
 .career-block {
   background: #faf7f2;
   padding: 28px;
-  border-radius: 12px;
+  border-radius: 10px;
   text-align: left;
 }
 
@@ -658,7 +659,17 @@ h2 {
   }
 
   .profile-career {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .career-block {
+    padding: 22px;
+  }
+
+  .career-block li {
+    font-size: 0.9rem;
+    line-height: 1.8;
   }
 
   .profile-message {
