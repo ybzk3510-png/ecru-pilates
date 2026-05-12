@@ -689,14 +689,8 @@ h2 {
 }
 
   .access-text {
-  font-size: 14.5px;
+  font-size: 14px;
   line-height: 2;
-  }
-
-  .concept-text p,
-  .profile-text p {
-    width: 92%;
-    letter-spacing: 0.02em;
   }
 
   .profile p,
