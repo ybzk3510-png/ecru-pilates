@@ -684,18 +684,27 @@ h2 {
     max-width: 300px;
   }
 
+  .qualifications li {
+  word-break: keep-all;
+}
+
   .access-text {
   font-size: 14.5px;
   line-height: 2;
   }
 
+  .concept-text p,
+  .profile-text p {
+    width: 92%;
+    letter-spacing: 0.02em;
+  }
 
   .profile p,
   .concept p, 
   .service p,
   .trouble p{
     font-size: 14px;
-    line-height: 1.9;
+    line-height: 2.1;
     letter-spacing: 0.02em;
   }
 
