@@ -669,7 +669,7 @@ h2 {
   }
 
   .career-block {
-    padding: 22px;
+    padding: 18px;
   }
 
   .career-block li {
@@ -689,7 +689,7 @@ h2 {
   }
 
   .qualifications li {
-  word-break: keep-all;
+  word-break: normal;
 }
 
   .concept p,
