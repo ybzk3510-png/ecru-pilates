@@ -696,11 +696,15 @@ h2 {
   .profile p,
   .concept p, 
   .service p,
-  .trouble p{
-    font-size: 14px;
-    line-height: 2.1;
-    letter-spacing: 0.02em;
-  }
+  .trouble p,
+  .access-text p {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  line-height: 2.1;
+  letter-spacing: 0;
+}
 
   .concept,
   .profile,
