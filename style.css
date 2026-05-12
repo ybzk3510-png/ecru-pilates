@@ -684,6 +684,12 @@ h2 {
     max-width: 300px;
   }
 
+  .access-text {
+  font-size: 14.5px;
+  line-height: 2;
+  }
+
+
   .profile p,
   .concept p, 
   .service p,
