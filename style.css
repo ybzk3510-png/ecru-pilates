@@ -556,6 +556,10 @@ h2 {
 /* スマホ */
 @media (max-width: 768px) {
 
+  html {
+  -webkit-text-size-adjust: 100%;
+  }
+
   .header {
   height: 64px;
   }
@@ -688,8 +692,9 @@ h2 {
   word-break: keep-all;
 }
 
-  .profile p,
-  .concept p, 
+  .concept p,
+  .profile-message,
+  .career-block li, 
   .service p,
   .trouble p,
   .access-text p {
