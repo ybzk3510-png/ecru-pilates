@@ -688,11 +688,6 @@ h2 {
   word-break: keep-all;
 }
 
-  .access-text {
-  font-size: 14px;
-  line-height: 2;
-  }
-
   .profile p,
   .concept p, 
   .service p,
@@ -701,7 +696,7 @@ h2 {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  font-size: 14px;
+  font-size: 13.5px;
   line-height: 2.1;
   letter-spacing: 0;
 }
